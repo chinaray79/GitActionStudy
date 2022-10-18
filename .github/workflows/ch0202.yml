@@ -1,9 +1,9 @@
-name: Issue assignment
-
+name: ch02 Issue assignment
+# 参考： https://github.com/marketplace/actions/create-an-issue
+# 暂时没有弄明白
 on:
     issues:
         types: [opened]
-
 jobs:
     auto-assign:
         runs-on: ubuntu-latest
