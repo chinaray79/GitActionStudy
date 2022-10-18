@@ -21,6 +21,7 @@ permissions:
 
 # 要执行的一项或多项任务，或称为任务集群
 jobs:
+  name: compile OpenWrt
   # 【任务】
   build_openwrt:
     permissions:
