@@ -1,6 +1,6 @@
-name: ch0202 Issue assignment
-# ²Î¿¼£º https://github.com/marketplace/actions/create-an-issue
-# ÔİÊ±Ã»ÓĞÅªÃ÷°×
+ï»¿name: ch0202 Issue assignment
+# å‚è€ƒï¼š https://github.com/marketplace/actions/create-an-issue
+# æš‚æ—¶æ²¡æœ‰å¼„æ˜ç™½
 on:
     issues:
         types: [opened]

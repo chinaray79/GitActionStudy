@@ -1,12 +1,12 @@
-name: ch0201ÈçºÎÊÖ¶¯Æô¶¯Ò»¸ö¹¤×÷Á÷
+ï»¿name: ch0201å¦‚ä½•æ‰‹åŠ¨å¯åŠ¨ä¸€ä¸ªå·¥ä½œæµ
 on: 
     workflow_dispatch:
       inputs:
         username:
-          description: 'ÇëÊäÈëgithubID£¨²»¼ì²é£©'
+          description: 'è¯·è¾“å…¥githubIDï¼ˆä¸æ£€æŸ¥ï¼‰'
           required: true
         reason:
-          description: 'ÎªÊ²Ã´ÔËÐÐÕâ¸ö¹¤×÷Á÷'
+          description: 'ä¸ºä»€ä¹ˆè¿è¡Œè¿™ä¸ªå·¥ä½œæµ'
           required: true
           default: 'I am running tests before implementing an automated workflow'
 jobs:
@@ -14,5 +14,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: >
-        echo "User ${{ github.event.inputs.username }} ÊÖ¶¯ÔËÐÐÒ»¸ö¹¤×÷Á÷."
+        echo "User ${{ github.event.inputs.username }} æ‰‹åŠ¨è¿è¡Œä¸€ä¸ªå·¥ä½œæµ."
         echo "Because ${{ github.event.inputs.reason }}."
