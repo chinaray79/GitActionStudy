@@ -1,0 +1,18 @@
+name: ch0201如何手动启动一个工作流
+on: 
+    workflow_dispatch:
+      inputs:
+        username:
+          description: '请输入githubID（不检查）'
+          required: true
+        reason:
+          description: '为什么运行这个工作流'
+          required: true
+          default: 'I am running tests before implementing an automated workflow'
+jobs:
+  tests_manual_workflow:
+    runs-on: ubuntu-latest
+    steps:
+    - run: >
+        echo "User ${{ github.event.inputs.username }} 手动运行一个工作流."
+        echo "Because ${{ github.event.inputs.reason }}."
