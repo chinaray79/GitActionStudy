@@ -1,7 +1,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 
 # Workflow 工作流的名称，该名称将显示到界面当中
-name: OpenWrt-Compile可以使用中文名称吗？
+name: 编译OpenWrt
 
 # 工作流触发条件
 on:
