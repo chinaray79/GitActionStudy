@@ -28,16 +28,8 @@ topics:
 
 | **Feature**  | **Implementation** |
 | --- | --- |
-{% data reusables.actions.workflow-dispatch-table-entry %}
-{% data reusables.actions.pull-request-table-entry %}
-{% data reusables.actions.cron-table-entry %}
-{% data reusables.actions.permissions-table-entry %}
-{% data reusables.actions.concurrency-table-entry %}
 | Running the job on different runners, depending on the repository: | [`runs-on`](/actions/using-jobs/choosing-the-runner-for-a-job)|
-{% data reusables.actions.if-conditions-table-entry %}
 | Using a matrix to create different test configurations: | [`matrix`](/actions/using-jobs/using-a-build-matrix-for-your-jobs)|
-{% data reusables.actions.checkout-action-table-entry %}
-{% data reusables.actions.setup-node-table-entry %}
 | Caching dependencies: | [`actions/cache`](/actions/advanced-guides/caching-dependencies-to-speed-up-workflows)|
 | Running tests on the runner: | `npm test`|
 
